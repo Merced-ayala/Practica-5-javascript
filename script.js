@@ -109,11 +109,9 @@ console.log(usuario)
 //TIpos de datos vacíos
 
 // Null = nulo 
-
 let espacioVacio = null 
 
 // undefined =  indefinido
-
 let noDefinido = undefined
 console.log (usuario.apellido)
 let algo
@@ -123,3 +121,25 @@ console.log (algo)
 const NoEsNumero = NaN
 const multiplicacion = 10 * 'Nan'
 console.log = (multiplicacion)
+// console.log multiplicación
+
+//------- Estructuras de control -----
+// Bucles - Un proceso que se repite
+// loop - bucle infinido 
+
+const listaAnimales = [
+    "Perro",
+    "gato",
+    "oso",
+    "gallina"
+]
+//Parámetro 1 = contador
+//Parámetro 2 = condición para que se detenga
+//Parámetro 3 = comportamiento del contador
+for(let contador = 0; contador === 10; contador = contador + 1 ) {
+    console.log (contador)
+}
+
+
+
+
