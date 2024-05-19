@@ -131,15 +131,29 @@ const listaAnimales = [
     "Perro",
     "gato",
     "oso",
-    "gallina"
+    "gallina",
+    "zorro"
 ]
+
 //Parámetro 1 = contador
 //Parámetro 2 = condición para que se detenga
 //Parámetro 3 = comportamiento del contador
-for(let contador = 0; contador === 10; contador = contador + 1 ) {
-    console.log (contador)
+//for(let contador = 0; contador = listaAnimales.length; contador = contador +1 )
+
+//for (let i =0; i < listaAnimales.leght; i)
+//console.log(i)
+//
+
+for(let i = 0; i < listaAnimales.length; i++ ) {
+    console.log (i)
+    console.log (listaAnimales[i])
 }
 
-
+//Condiciones 
+//- Igualdad : ===
+//- menor que : <
+//- mayor que:  >
+//- menor o igual a que: <=
+//- mayor o igual a que: >=
 
 
