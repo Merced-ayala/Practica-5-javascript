@@ -28,7 +28,40 @@ const leerInputs = () => {
     let numero2 = inputNumero2.value
     console.log("valores desde el input", numero1, numero2)
 
-  }
+      // validar que no esten vacios
+    if (numero1 === '') {
+        // anunciar un error
+        alert("El valor 1 no existe o contiene caracteres no numericos")
+        // interrumpir la ejecucion
+        return null
+    }
+
+    if (numero2 === '') {
+        // anunciar un error
+        alert("El valor 2 no existe o contiene caracteres no numericos")
+        // interrumpir la ejecucion
+        return null
+    }
+} 
+
+// parse - cambiar el tipo de dato
+numero1 = parseInt(numero1)
+numero2 = parseInt(numero2)
+console.log(numero1, numero2)
+
+const numerosValidados = {
+    numero1: numero1,
+    numero2: numero2
+}
+
+return numerosValidados
+
+// esta es otra forma de devolver un JSON
+// return {
+//     numero1: numero1,
+//     numero2: numero2
+// }
+
 
 
 
